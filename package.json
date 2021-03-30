@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-did-io",
   "dependencies": {
+    "@digitalbazaar/did-method-key": "github:digitalbazaar/did-method-key-js#v1.x",
+    "did-io": "^0.8.3",
+    "did-veres-one": "^12.1.1",
     "esm": "^3.2.25"
   },
   "peerDependencies": {
