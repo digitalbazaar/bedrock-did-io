@@ -25,7 +25,7 @@
   "dependencies": {
     "@digitalbazaar/did-io": "^1.0.0",
     "@digitalbazaar/did-method-key": "github:digitalbazaar/did-method-key-js#v1.x",
-    "did-veres-one": "^12.1.1",
+    "did-veres-one": "^13.0.0",
     "esm": "^3.2.25"
   },
   "peerDependencies": {
