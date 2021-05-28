@@ -25,7 +25,7 @@
   "dependencies": {
     "@digitalbazaar/did-io": "^1.0.0",
     "@digitalbazaar/did-method-key": "^1.2.0",
-    "did-veres-one": "veres-one/did-veres-one#support-2018",
+    "did-veres-one": "14.0.0-beta.1",
     "esm": "^3.2.25"
   },
   "peerDependencies": {
