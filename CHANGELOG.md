@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 3.0.0 -
+## 3.0.0 - 2021-05-2
 
 ### Changed
 - **BREAKING**: Use [did-veres-one@^14.0.0-beta.1](https://github.com/veres-one/did-veres-one/blob/v14.x/CHANGELOG.md).
