@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 4.0.0 - 2021-07-xx
+## 4.0.0 - 2021-07-10
 
 ### Changed
 - **BREAKING**: Use did key driver 2.x.
