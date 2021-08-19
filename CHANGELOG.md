@@ -1,5 +1,10 @@
 # bedrock-did-io ChangeLog
 
+## 4.0.1 - 2021-08-xx
+
+### Fixed
+- Use fixed did-veres-one driver.
+
 ## 4.0.0 - 2021-07-10
 
 ### Changed
