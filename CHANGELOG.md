@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 4.0.2 -
+## 4.0.2 - 2021-08-23
 
 ### Changed
 - Use did-veres-one `v14.0.0-beta.3`, with additional `fromNym` error logging.
