@@ -1,6 +1,6 @@
 {
   "name": "bedrock-did-io",
-  "version": "4.0.3-0",
+  "version": "5.0.0",
   "description": "Bedrock DID Client",
   "main": "./lib",
   "scripts": {
