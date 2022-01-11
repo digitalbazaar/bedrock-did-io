@@ -1,5 +1,10 @@
 # bedrock-did-io ChangeLog
 
+## 5.0.0 - 2022-01-xx
+
+### Changed
+- **BREAKING**: Use did-veres-one `v14.0.0-beta.4`.
+
 ## 4.0.2 - 2021-08-23
 
 ### Changed
