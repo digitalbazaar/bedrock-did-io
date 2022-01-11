@@ -29,7 +29,7 @@
     "esm": "^3.2.25"
   },
   "peerDependencies": {
-    "bedrock": "^4.1.1"
+    "bedrock": "^4.3.0"
   },
   "directories": {
     "lib": "./lib"
