@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 6.0.2 - 2022-02-xx
+## 6.0.2 - 2022-02-10
 
 ### Fixed
 - Fix `didIo._cache` initialization.
