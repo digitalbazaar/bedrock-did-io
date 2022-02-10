@@ -1,5 +1,14 @@
 # bedrock-did-io ChangeLog
 
+## 6.0.0 - 2022-02-xx
+
+### Changed
+- **BREAKING**: Do not initialize internal `didIo` cache until bedrock is
+  initializing.
+- **BREAKING**: Configure `didIo` cache using bedrock config system. Set
+  a higher default timeout of 5 min (old timeout was 5 seconds) on DID docs.
+  Set a higher default cache size of 1k DID docs.
+
 ## 5.0.0 - 2022-01-11
 
 ### Changed
