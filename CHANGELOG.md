@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 6.0.1 - 2022-02-xx
+## 6.0.1 - 2022-02-10
 
 ### Fixed
 - Create `didIo` early before bedrock initializes, but update its internal
