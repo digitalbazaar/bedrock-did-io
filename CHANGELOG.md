@@ -1,5 +1,14 @@
 # bedrock-did-io ChangeLog
 
+## 6.0.1 - 2022-02-xx
+
+### Fixed
+- Create `didIo` early before bedrock initializes, but update its internal
+  cache during bedrock init. This approach allows the `didIo` symbol to be
+  accessed (and even potentially used with a temporary cache) prior to
+  bedrock initialization -- as a number of modules are presently doing. A
+  future version should remove this and modules should update.
+
 ## 6.0.0 - 2022-02-10
 
 ### Changed
