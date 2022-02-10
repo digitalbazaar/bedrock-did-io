@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 6.0.0 - 2022-02-xx
+## 6.0.0 - 2022-02-10
 
 ### Changed
 - **BREAKING**: Do not initialize internal `didIo` cache until bedrock is
