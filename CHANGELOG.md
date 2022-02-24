@@ -1,5 +1,15 @@
 # bedrock-did-io ChangeLog
 
+## 6.1.0 - 2022-02-xx
+
+### Added
+- Add configuration option `methodOverrides.v1.disableFetch` that takes a
+  boolean and is set to `false` by default. This option will prevent the
+  veres one driver from fetching a DID document from the veres one ledger,
+  causing it to only resolve `nym` DIDs. Note that this option is not safe
+  other than in development or for veres one networks that are known to be
+  non-operational or out of date.
+
 ## 6.0.2 - 2022-02-10
 
 ### Fixed
