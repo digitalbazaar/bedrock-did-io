@@ -1,5 +1,13 @@
 # bedrock-did-io ChangeLog
 
+## 7.0.0 - 2022-04-xx
+
+### Changed
+- **BREAKING**: Rename package to `@bedrock/did-io`.
+- **BREAKING**: Convert to module (ESM).
+- **BREAKING**: Remove default export.
+- **BREAKING**: Require node 14.x.
+
 ## 6.1.0 - 2022-02-24
 
 ### Added
