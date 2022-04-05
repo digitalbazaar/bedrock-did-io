@@ -1,8 +1,9 @@
 {
   "name": "bedrock-did-io",
   "version": "6.1.1-0",
+  "type": "module",
   "description": "Bedrock DID Client",
-  "main": "./lib",
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint ."
   },
@@ -26,20 +27,21 @@
     "@digitalbazaar/did-io": "^1.0.0",
     "@digitalbazaar/did-method-key": "^2.0.0",
     "@digitalbazaar/lru-memoize": "^2.1.0",
-    "did-veres-one": "14.0.0-beta.4",
-    "esm": "^3.2.25"
+    "did-veres-one": "14.0.0-beta.4"
   },
   "peerDependencies": {
-    "bedrock": "^4.3.0"
+    "@bedrock/core": "^5.0.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-digitalbazaar": "^2.6.1"
+    "eslint": "^8.12.0",
+    "eslint-config-digitalbazaar": "^2.8.0",
+    "eslint-plugin-jsdoc": "^37.9.7",
+    "jsdoc-to-markdown": "^7.1.1"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   }
 }
