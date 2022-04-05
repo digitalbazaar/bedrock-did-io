@@ -43,6 +43,9 @@
 
 ## 5.0.0 - 2022-01-11
 
+### Added
+- Add dependency on `@digitalbazaar/lru-memoize`. 
+
 ### Changed
 - **BREAKING**: Use did-veres-one `v14.0.0-beta.4`.
 
