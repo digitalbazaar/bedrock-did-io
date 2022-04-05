@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 7.0.0 - 2022-04-xx
+## 7.0.0 - 2022-04-05
 
 ### Changed
 - **BREAKING**: Rename package to `@bedrock/did-io`.
