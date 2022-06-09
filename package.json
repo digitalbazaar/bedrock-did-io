@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-did-io",
   "dependencies": {
-    "@digitalbazaar/did-io": "^1.0.0",
-    "@digitalbazaar/did-method-key": "^2.0.0",
-    "@digitalbazaar/lru-memoize": "^2.1.0",
-    "did-veres-one": "14.0.0-beta.4"
+    "@digitalbazaar/did-io": "^2.0.0",
+    "@digitalbazaar/did-method-key": "^3.0.0",
+    "@digitalbazaar/lru-memoize": "^3.0.0",
+    "did-veres-one": "veres-one/did-veres-one#convert-to-module"
   },
   "peerDependencies": {
     "@bedrock/core": "^6.0.0"
