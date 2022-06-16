@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 9.0.0 - 2022-TBD
+## 9.0.0 - 2022-06-16
 
 ### Changed
 - **BREAKING**: Update deps:
