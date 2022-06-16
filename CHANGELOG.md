@@ -1,5 +1,14 @@
 # bedrock-did-io ChangeLog
 
+## 9.0.0 - 2022-TBD
+
+### Changed
+- **BREAKING**: Update deps:
+  - `did-veres-one` v15.0.
+  - `@digitalbazaar/did-io` v2.0.
+  - `@digitalbazaar/did-method-key` v3.0.
+  - `@digitalbazaar/lru-memoize` v3.0.
+
 ## 8.0.0 - 2022-04-29
 
 ### Changed
