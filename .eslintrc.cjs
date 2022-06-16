@@ -9,6 +9,13 @@ module.exports = {
   env: {
     node: true
   },
-  extends: ['digitalbazaar', 'digitalbazaar/jsdoc'],
-  ignorePatterns: ['node_modules/']
+  extends: [
+    'digitalbazaar',
+    'digitalbazaar/jsdoc',
+    'digitalbazaar/module'
+  ],
+  ignorePatterns: ['node_modules/'],
+  rules: {
+    'unicorn/prefer-node-protocol': 'error'
+  }
 };
