@@ -27,7 +27,7 @@
     "@digitalbazaar/did-io": "^2.0.0",
     "@digitalbazaar/did-method-key": "^3.0.0",
     "@digitalbazaar/lru-memoize": "^3.0.0",
-    "did-veres-one": "veres-one/did-veres-one#convert-to-module"
+    "did-veres-one": "^15.0.0"
   },
   "peerDependencies": {
     "@bedrock/core": "^6.0.0"
