@@ -32,6 +32,7 @@
     "@digitalbazaar/did-method-key": "^5.0.0",
     "@digitalbazaar/ecdsa-multikey": "^1.1.1",
     "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0",
+    "@digitalbazaar/did-method-web": "github:digitalbazaar/did-method-web#convert-key-to-web",
     "@digitalbazaar/lru-memoize": "^3.0.0",
     "did-veres-one": "^16.0.0"
   },
