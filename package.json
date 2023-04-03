@@ -28,7 +28,7 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-did-io",
   "dependencies": {
     "@digitalbazaar/did-io": "^2.0.0",
-    "@digitalbazaar/did-method-key": "digitalbazaar/did-method-key#add-ecdsa-support",
+    "@digitalbazaar/did-method-key": "^4.0.0",
     "@digitalbazaar/lru-memoize": "^3.0.0",
     "did-veres-one": "^15.0.0"
   },
@@ -46,6 +46,6 @@
     "jsdoc-to-markdown": "^7.1.1"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   }
 }
