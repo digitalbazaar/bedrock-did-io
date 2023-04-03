@@ -1,5 +1,12 @@
 # bedrock-did-io ChangeLog
 
+## 9.1.0 - 2023-TBD
+
+### Changed
+- Use `@digitalbazaar/did-method-key@v4.0`. Removes support for node <= 14 and
+  adds a utility function that can used to create a `verificationSuite` when
+  creating a `DidKeyDriver` instance.
+
 ## 9.0.1 - 2022-06-16
 
 ### Changed
