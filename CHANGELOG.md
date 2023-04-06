@@ -4,9 +4,10 @@
 
 ### Changed
 - **BREAKING**: Remove support for node <= 14.
-- Use `@digitalbazaar/did-method-key@v4.0`. Removes support for node <= 14 and
-  adds a utility function that can be used to create a `verificationSuite` when
-  creating a `DidKeyDriver` instance.
+- **BREAKING**: Use `@digitalbazaar/did-method-key@v5.0`. Removes support for
+  node <= 14 and `DidKeyDriver` no longer takes a `verificationSuite` param in
+  the constructor. Driver instance now supports multiplemultibase-multikey
+  headers and key type handlers.
 
 ## 9.0.1 - 2022-06-16
 
