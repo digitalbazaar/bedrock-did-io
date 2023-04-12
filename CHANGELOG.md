@@ -7,7 +7,7 @@
 - **BREAKING**: Use `@digitalbazaar/did-method-key@v5.0`. Removes support for
   node <= 14 and `DidKeyDriver` no longer takes a `verificationSuite` param in
   the constructor. Driver instance now supports multiple multibase-multikey
-  headers and key type handlers.
+  headers and multibase-multikey deserializer function.
 
 ## 9.0.1 - 2022-06-16
 
