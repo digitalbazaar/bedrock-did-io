@@ -2,12 +2,17 @@
 
 ## 10.0.0 - 2023-TBD
 
+### Added
+- Add default `Ed25519` and `P-256` `keyTypes` to the config.
+
 ### Changed
 - **BREAKING**: Remove support for node <= 14.
 - **BREAKING**: Use `@digitalbazaar/did-method-key@v5.0`. Removes support for
   node <= 14 and `DidKeyDriver` no longer takes a `verificationSuite` param in
   the constructor. Driver instance now supports multiple multibase-multikey
   headers and multibase-multikey deserializer function.
+- Update `didIo` to use `didKeyDriver` configured to use the right
+  mutibase-mutikey deserializer for the `keyTypes` set in the config.
 
 ## 9.0.1 - 2022-06-16
 
