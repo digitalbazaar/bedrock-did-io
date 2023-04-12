@@ -1,9 +1,9 @@
 # bedrock-did-io ChangeLog
 
-## 10.0.0 - 2023-TBD
+## 10.0.0 - 2023-04-12
 
 ### Added
-- Add default `Ed25519` and `P-256` `keyTypes` to the config.
+- Add default `Ed25519` and `P-256` `keyTypes` to the DID method `key` config.
 
 ### Changed
 - **BREAKING**: Remove support for node <= 14.
