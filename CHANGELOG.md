@@ -1,5 +1,10 @@
 # bedrock-did-io ChangeLog
 
+## 10.1.0 - 2023-08-TBD
+
+### Added
+- Add `P-384` to the default key types in the DID method `key` config.
+
 ## 10.0.0 - 2023-04-12
 
 ### Added
