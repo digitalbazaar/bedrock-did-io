@@ -5,6 +5,9 @@
 ### Added
 - Add `Bls12381G2` to the default key types in the DID method `key` config.
 
+### Changed
+- Use `did-veres-one@16` to get latest jsonld safe mode updates.
+
 ## 10.1.0 - 2023-08-09
 
 ### Added
