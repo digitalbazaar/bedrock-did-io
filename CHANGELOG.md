@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 10.2.0 - 2024-01-dd
+## 10.2.0 - 2024-01-16
 
 ### Added
 - Add `Bls12381G2` to the default key types in the DID method `key` config.
