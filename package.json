@@ -37,7 +37,8 @@
     "did-veres-one": "^16.0.0"
   },
   "peerDependencies": {
-    "@bedrock/core": "^6.0.0"
+    "@bedrock/core": "^6.0.0",
+    "@bedrock/https-agent": "^4.0.0"
   },
   "directories": {
     "lib": "./lib"

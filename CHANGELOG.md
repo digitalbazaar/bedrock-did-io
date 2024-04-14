@@ -4,6 +4,8 @@
 
 ### Added
 - Add `@digitalbazaar/did-method-web` to supported did methods.
+- Use `@bedrock/https-agent@4` peer dependency to provide https-agent when
+  fetching `did:web` documents.
 
 ## 10.2.0 - 2024-01-16
 
