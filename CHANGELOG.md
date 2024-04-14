@@ -1,5 +1,10 @@
 # bedrock-did-io ChangeLog
 
+## 10.3.1 - 2024-04-dd
+
+### Fixed
+- Fix passing `agent` to `did:web` driver fetch options.
+
 ## 10.3.0 - 2024-04-14
 
 ### Added
