@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 10.3.0 -
+## 10.3.0 - 2024-mm-dd
 
 ### Added
 - Add `@digitalbazaar/did-method-web` to supported did methods.
