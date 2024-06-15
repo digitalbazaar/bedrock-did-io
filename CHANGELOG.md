@@ -1,5 +1,12 @@
 # bedrock-did-io ChangeLog
 
+## 11.0.0 - 2024-mm-dd
+
+### Changed
+- **BREAKING**: Use `ed25519-multikey` to resolve ed25519 keys. This will
+  result in `Multikey`-typed verification methods being returned instead
+  of `Ed25519VerificationKey2020`-typed verification methods.
+
 ## 10.3.1 - 2024-04-14
 
 ### Fixed
