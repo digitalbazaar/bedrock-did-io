@@ -1,5 +1,10 @@
 # bedrock-did-io ChangeLog
 
+## 10.3.1 - 2024-08-dd
+
+### Fixed
+- Update dependencies to get bug fixes.
+
 ## 10.3.1 - 2024-04-14
 
 ### Fixed
