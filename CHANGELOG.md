@@ -1,5 +1,10 @@
 # bedrock-did-io ChangeLog
 
+## 10.3.3 - 2024-09-dd
+
+### Fixed
+- Fix Bls12381G2 multikey prefix.
+
 ## 10.3.2 - 2024-08-26
 
 ### Fixed
