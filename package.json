@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/did-io",
-  "version": "10.4.0",
+  "version": "10.4.1-0",
   "description": "Bedrock DID Client",
   "type": "module",
   "main": "./lib/index.js",
