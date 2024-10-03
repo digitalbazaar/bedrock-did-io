@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 10.4.0 - 2024-10-dd
+## 10.4.0 - 2024-10-02
 
 ### Added
 - Add support for `did:jwk`.
