@@ -1,5 +1,13 @@
 # bedrock-did-io ChangeLog
 
+## 10.4.1 - 2026-05-18
+
+### Changed
+- Update `@digitalbazaar/lru-memoize` to `^4.0.0`.
+- Update `@digitalbazaar/did-io` to `^2.1.1`.
+- Change cache config option from `maxAge` to `ttl`; add backwards-compatibility
+  coercion so existing configs using `maxAge` continue to work.
+
 ## 10.4.0 - 2024-10-02
 
 ### Added

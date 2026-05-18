@@ -11,12 +11,13 @@ describe('cache config coercions', () => {
     should.not.exist(cfg.maxAge);
   });
 
-  it('should coerce top-level maxSize (no sizeCalculation) to cache.max', () => {
-    const cfg = {maxSize: 500, cache: {max: 1000, ttl: 300000}};
-    _coerceCacheConfig(cfg);
-    cfg.cache.max.should.equal(500);
-    should.not.exist(cfg.maxSize);
-  });
+  it('should coerce top-level maxSize (no sizeCalculation) to cache.max',
+    () => {
+      const cfg = {maxSize: 500, cache: {max: 1000, ttl: 300000}};
+      _coerceCacheConfig(cfg);
+      cfg.cache.max.should.equal(500);
+      should.not.exist(cfg.maxSize);
+    });
 
   it('should NOT coerce maxSize when sizeCalculation is set', () => {
     const sizeCalculation = () => 1;
