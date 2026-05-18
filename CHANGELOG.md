@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 10.4.1 - 2026-mm-dd
+## 10.4.1 - 2026-05-18
 
 ### Changed
 - Update `@digitalbazaar/lru-memoize` to `^4.0.0`.
