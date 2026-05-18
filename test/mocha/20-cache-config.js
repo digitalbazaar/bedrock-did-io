@@ -4,45 +4,45 @@
 import {_coerceCacheConfig} from '@bedrock/did-io';
 
 describe('cache config coercions', () => {
-  it('should coerce top-level maxAge to cache.ttl', () => {
-    const cfg = {maxAge: 30000, cache: {max: 1000, ttl: 300000}};
-    _coerceCacheConfig(cfg);
-    cfg.cache.ttl.should.equal(30000);
-    should.not.exist(cfg.maxAge);
+  it('should coerce maxAge to ttl', () => {
+    const result = _coerceCacheConfig({max: 1000, maxAge: 30000});
+    result.ttl.should.equal(30000);
+    should.not.exist(result.maxAge);
   });
 
-  it('should coerce maxSize without sizeCalculation to cache.max', () => {
-    const cfg = {maxSize: 500, cache: {max: 1000, ttl: 300000}};
-    _coerceCacheConfig(cfg);
-    cfg.cache.max.should.equal(500);
-    should.not.exist(cfg.maxSize);
+  it('should coerce maxSize without sizeCalculation to max', () => {
+    const result = _coerceCacheConfig({max: 1000, ttl: 300000, maxSize: 500});
+    result.max.should.equal(500);
+    should.not.exist(result.maxSize);
   });
 
   it('should NOT coerce maxSize when sizeCalculation is set', () => {
     const sizeCalculation = () => 1;
-    const cfg = {
-      maxSize: 500,
-      sizeCalculation,
-      cache: {max: 1000, ttl: 300000}
-    };
-    _coerceCacheConfig(cfg);
-    cfg.cache.max.should.equal(1000);
-    cfg.maxSize.should.equal(500);
+    const result = _coerceCacheConfig(
+      {max: 1000, ttl: 300000, maxSize: 500, sizeCalculation});
+    result.max.should.equal(1000);
+    result.maxSize.should.equal(500);
   });
 
   it('should coerce both maxAge and maxSize together', () => {
-    const cfg = {maxAge: 60000, maxSize: 200, cache: {max: 1000, ttl: 300000}};
-    _coerceCacheConfig(cfg);
-    cfg.cache.ttl.should.equal(60000);
-    cfg.cache.max.should.equal(200);
-    should.not.exist(cfg.maxAge);
-    should.not.exist(cfg.maxSize);
+    const result = _coerceCacheConfig(
+      {max: 1000, ttl: 300000, maxAge: 60000, maxSize: 200});
+    result.ttl.should.equal(60000);
+    result.max.should.equal(200);
+    should.not.exist(result.maxAge);
+    should.not.exist(result.maxSize);
   });
 
   it('should be a no-op when neither maxAge nor maxSize are set', () => {
-    const cfg = {cache: {max: 1000, ttl: 300000}};
-    _coerceCacheConfig(cfg);
-    cfg.cache.max.should.equal(1000);
-    cfg.cache.ttl.should.equal(300000);
+    const result = _coerceCacheConfig({max: 1000, ttl: 300000});
+    result.max.should.equal(1000);
+    result.ttl.should.equal(300000);
+  });
+
+  it('should not mutate the input', () => {
+    const input = {max: 1000, maxAge: 30000};
+    _coerceCacheConfig(input);
+    input.maxAge.should.equal(30000);
+    should.not.exist(input.ttl);
   });
 });
