@@ -5,6 +5,7 @@
 .project
 .settings
 .vscode
+.zed
 TAGS
 coverage
 node_modules
