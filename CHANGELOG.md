@@ -3,6 +3,10 @@
 ## 10.5.0 - 2026-05-xx
 
 ### Changed
+- Update minor dependencies.
+- Update dev dependencies.
+- Update test dependencies.
+- Remove unused dependencies.
 - **NOTE**: Update supported platforms.
   - Test on Node.js >=22.
   - Update `engines.node` to `>=22`.
