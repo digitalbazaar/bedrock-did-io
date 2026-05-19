@@ -1,5 +1,13 @@
 # bedrock-did-io ChangeLog
 
+## 10.5.0 - 2026-05-xx
+
+### Changed
+- **NOTE**: Update supported platforms.
+  - Test on Node.js >=22.
+  - Update `engines.node` to `>=22`.
+  - See README requirements section.
+
 ## 10.4.1 - 2026-05-18
 
 ### Changed
