@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-did-io",
   "dependencies": {
-    "@digitalbazaar/bls12-381-multikey": "^2.1.0",
+    "@digitalbazaar/bls12-381-multikey": "^2.2.0",
     "@digitalbazaar/did-io": "^2.1.1",
     "@digitalbazaar/did-method-jwk": "^2.0.0",
     "@digitalbazaar/did-method-key": "^5.3.0",
