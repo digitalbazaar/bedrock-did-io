@@ -1,6 +1,6 @@
 # bedrock-did-io ChangeLog
 
-## 10.5.0 - 2026-05-xx
+## 10.5.0 - 2026-05-27
 
 ### Changed
 - Update minor dependencies.
